@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="sampleFlow" doc:id="1ebb1854-7e94-4005-885c-cc0b297c5ea2" >
 		<http:listener doc:name="Listener" doc:id="3dbe2ad9-2569-447c-a487-6a59d74a0e95" config-ref="HTTP_Listener_config" path="/sample"/>
-		<logger level="INFO" doc:name="Logger" doc:id="865bdf1c-5c16-4de4-ab31-1cfc432ec443" message="smaple #[payload]"/>
-		<set-payload value="sample jenkins" doc:name="Set Payload" doc:id="1434b65f-cb4b-4b15-972a-941a015b0b17" />
+		<logger level="INFO" doc:name="Logger" doc:id="865bdf1c-5c16-4de4-ab31-1cfc432ec443" message="Succesfully deployed Mule project on cloud using jenkins"/>
+		<set-payload value="Succesfully deployed Mule project on cloud using jenkins" doc:name="Set Payload" doc:id="1434b65f-cb4b-4b15-972a-941a015b0b17" />
 	</flow>
 </mule>
